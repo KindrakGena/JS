@@ -8,7 +8,6 @@
 // console.log(result);
 
 
-
 // 2. Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр
 
 // let book = {
@@ -76,7 +75,30 @@
 // 7. У прямокутного трикутника дві сторони n (зі значенням 3) та m (зі значенням 4).
 // Знайдіть гіпотенузу k за теоремою Піфагора (потрібно використовувати функцію Math.pow (число, ступінь) або оператор зведення в ступінь *
 
- // let n = 3;
- // let m = 4;
- // let k = Math.sqrt(Math.pow(3,2)+Math.pow(4,2));
- // console.log(k);
+// let n = 3;
+// let m = 4;
+// let k = Math.sqrt(Math.pow(3,2)+Math.pow(4,2));
+// console.log(k);
+
+//
+// errors
+// Ваше завдання, зробити так, щоб файл відкривався без помилок .
+
+
+// let b = 500;
+// console.log(b);
+// let c = "hello";
+// let d = "okten";
+// const x = 'constant value';
+// {
+//     let a = 100;
+//     console.log(a);
+// }
+// b = 'new value';
+// console.log(b);
+//
+// let result = 100 + 'y';
+// console.log(result);
+
+
+
