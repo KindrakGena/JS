@@ -37,20 +37,23 @@
 //   foo([9,8,0,4], 2) // ==> [ 9, 8, 4, 0 ]
 //
 
-// let arr = [9,8,0,4];
-//
-// let arrChang = (arr, i) => {
-//     for (let j = 0; j < arr.length; j++) {
-//         if (arr[j] = i) {
-//             arr[j] = i+1;
-//             console.log(arr)
-//         }
-//
-//     }
-//
-// }
-//
-// console.log(arrChang(arr),0)
+ // let arr = [9,8,0,4];
+ //
+ // let arrChang = (arr, i) => {
+ //     for (let j = 0; j < arr.length; j++) {
+ //         if (i === j) {
+ //           let tmp = arr[j+1];
+ //           arr[j+1]=arr[j];
+ //           arr[j] = tmp
+ //
+ //         }
+ //
+ //     }
+ //   return arr
+ //
+ // }
+ //
+ // console.log(arrChang(arr),0)
 
 // - Сворити функцію яка буде переносити елементи з значенням 0 у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
 // Двожина масиву від 2 до 100
