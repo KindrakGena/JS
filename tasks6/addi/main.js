@@ -98,18 +98,33 @@
 //     let symb = "о", str = "Астрономия это наука о небесных объектах";
 // document.writeln(count(str, symb)) // 5
 //
-//  str = "Астрономия это наука о небесных объектах";
-//  let sym = "о";
-//  let stringsearch = (str, sym) => {
-//      for (let i = count = 0; i < str.length; i +=+ (sym === str[i++])); };
+// let str = "Астрономия это наука о небесных объектах";
+// let sym = "о";
+// let stringsearch = (str, sym) => {
+//     let count = 0;
+//     for (let i = 0; i < str.length; i++) {
+//         if(sym === str[i]) {
+//             count++;
+//         }
+//     };
+//     return count;
 //
+// };
 //
-//  console.log(stringsearch(str, sym))
+// console.log(stringsearch(str, sym))
 //
 //
 
 
-// Напишіть функцію cutString(str, n), яка видаляє зайві слова з рядка str, залишивши у ній n слів.
+//
+// // let mailStr = 'someeMAIL@gmail.com';
+// //
+// // let mailValid = str => {
+// //     let valid = str.toLowerCase();
+// //     console.log(valid)
+// //     return valid.includes('someemail')  && valid.includes('@');
+// // }
+// // console.log(mailValid(mailStr)) Напишіть функцію cutString(str, n), яка видаляє зайві слова з рядка str, залишивши у ній n слів.
 //     let str = "Сила тяжести приложена к центру масс тела";
 // document.writeln(cutString(str, 5)) // 'Сила тяжести приложена к центру'
 
@@ -119,3 +134,14 @@
 //
 // console.log(cutString(str, 5));
 // document.writeln(cutString(str, 5))
+
+
+// Створити функцію-валідатор для адрес електронної пошти. Перевірка повинна включати в себе :
+// данні до знака равлика(@), наявність равлика, крапку яка знаходиться не меньше ніж на 2 символ далі після равлика,
+// функція не чутлива до регістру (some@email.com,SOME@EMAIL.COM,some@EMAIL.com, і тд - однакові значення)
+// Протестувати на значеннях
+// someemail@gmail.com
+// someeMAIL@gmail.com
+// someeMAIL@i.ua
+// some.email@gmail.com
+//
